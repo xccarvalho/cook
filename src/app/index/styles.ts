@@ -3,6 +3,7 @@ import { theme } from "@/theme";
 
 export const styles = StyleSheet.create({
   container: {
+    paddingHorizontal: 16,
     flex: 1,
   },
   title: {
@@ -20,5 +21,11 @@ export const styles = StyleSheet.create({
     color: theme.colors.gray_400,
     marginTop: 12,
     marginBottom: 38,
+  },
+  ingredientList: {
+    flexWrap: "wrap",
+    flexDirection: "row",
+    paddingBottom: 200,
+    gap: 12,
   },
 });
